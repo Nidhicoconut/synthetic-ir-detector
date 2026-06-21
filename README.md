@@ -3,8 +3,6 @@
 > Thermal vision without a thermal camera — synthetic IR object detection powered by YOLOv8.
 
 Detects people in RGB images by converting them to synthetic infrared using OpenCV, then running a YOLOv8 model trained entirely on fake thermal data.
-
-> **Live demo:** [ir-detector-frontend-9cjdfykbl-think-forge1505.vercel.app](https://ir-detector-frontend-9cjdfykbl-think-forge1505.vercel.app/)
 > 
 🔗 **Live Demo:** [ir-detector-frontend-9cjdfykbl-think-forge1505.vercel.app](https://ir-detector-frontend-9cjdfykbl-think-forge1505.vercel.app/)
 
