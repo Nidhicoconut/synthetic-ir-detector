@@ -5,7 +5,6 @@
 Detects people in RGB images by converting them to synthetic infrared using OpenCV, then running a YOLOv8 model trained entirely on fake thermal data.
 
 🔗 **Live Demo:** [ir-detector-frontend-9cjdfykbl-think-forge1505.vercel.app](https://ir-detector-frontend-9cjdfykbl-think-forge1505.vercel.app/)
-🔗 **Backend API:** [nidhimushroom-synthetic-ir-detector.hf.space](https://nidhimushroom-synthetic-ir-detector.hf.space/)
 
 ---
 
