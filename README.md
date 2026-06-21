@@ -4,8 +4,6 @@
 
 Detects people in RGB images by converting them to synthetic infrared using OpenCV, then running a YOLOv8 model trained entirely on fake thermal data.
 
-![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Backend-orange) ![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-blue)
-
 > **Live demo:** [ir-detector-frontend-9cjdfykbl-think-forge1505.vercel.app](https://ir-detector-frontend-9cjdfykbl-think-forge1505.vercel.app/)
 > 
 🔗 **Live Demo:** [ir-detector-frontend-9cjdfykbl-think-forge1505.vercel.app](https://ir-detector-frontend-9cjdfykbl-think-forge1505.vercel.app/)
