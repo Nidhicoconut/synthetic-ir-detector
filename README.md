@@ -93,8 +93,6 @@ uvicorn app:app --reload --port 8000
 | Precision | 0.822 |
 | Recall | 0.663 |
 
-Full methodology, literature comparison, and discussion in [`docs/project_report.md`](./docs/project_report.md).
-
 ---
 
 ## Limitations & Future Work
