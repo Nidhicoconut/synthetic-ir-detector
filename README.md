@@ -29,13 +29,15 @@ We then train YOLOv8 entirely on this synthetic data and test it on real thermal
 
 ```
 synthetic-ir-detector/
-├── frontend/          → Next.js web app (deployed on Vercel)
-├── backend/           → FastAPI inference API (deployed on Hugging Face Spaces)
-├── notebooks/         → Colab notebooks for data generation + training
-│   ├── week1_synthetic_ir_generation.ipynb
-│   └── week2_yolov8_training.ipynb
-└── docs/
-    └── project_report.md
+├── app/                → Next.js app pages (deployed on Vercel)
+├── public/             → Static assets
+├── backend/            → FastAPI inference API (deployed on Hugging Face Spaces)
+│   ├── app.py
+│   ├── Dockerfile
+│   └── requirements.txt
+└── notebooks/          → Colab notebooks for data generation + training
+    ├── SyntheticIR_DataPipeline.ipynb
+    └── YOLOv8_SyntheticIR_Training.ipynb
 ```
 
 ---
